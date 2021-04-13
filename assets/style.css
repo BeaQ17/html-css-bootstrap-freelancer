@@ -5,11 +5,9 @@
 
 .nav{
     background-color: #2C3E50;
-    height: 100px;
 }
 
 .hero{
-    height: 400px;
     background-color: #1ABC9C;
 }
 
@@ -19,7 +17,6 @@
 }
 
 .about{
-    height: 200px;
     background-color: #1ABC9C;
 }
 
@@ -37,7 +34,6 @@
 
 .second_f{
     background-color: #2C3E50;
-    height: 100px;
     text-align: center;
     color: white;
 }
