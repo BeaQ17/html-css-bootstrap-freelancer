@@ -1,0 +1,43 @@
+.dbg{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.nav{
+    background-color: #2C3E50;
+    height: 100px;
+}
+
+.hero{
+    height: 400px;
+    background-color: #1ABC9C;
+}
+
+.padded{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.about{
+    height: 200px;
+    background-color: #1ABC9C;
+}
+
+.text, form{
+    padding-left: 40px;
+}
+
+.text2, form{
+    padding-right: 40px;
+}
+
+.first_f{
+    background-color: #3A546D;
+}
+
+.second_f{
+    background-color: #2C3E50;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
