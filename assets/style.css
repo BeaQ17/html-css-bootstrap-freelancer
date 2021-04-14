@@ -1,20 +1,78 @@
+/* debug */
 .dbg{
     border: 1px solid red;
     padding: 10px;
 }
 
-.nav{
-    background-color: #2C3E50;
-}
-
-.hero{
-    background-color: #1ABC9C;
+/* commons */
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .padded{
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
+
+.container-fluid{
+    width: 80%;
+}
+
+
+/*** header ***/
+/* navbar */
+.nav{
+    background-color: #2C3E50;
+}
+
+.nav .container-fluid a{
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* jumbotron */
+.hero{
+    background-color: #1ABC9C;
+}
+
+.herostuff{
+    text-align: center;
+    color: white;
+}
+
+.heroimg{
+    width: 180px;
+}
+
+.herostuff h1{
+    margin-top: 15px;
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.line{
+    height: 3px;
+    width: 100px;
+    display: inline-block;
+    background-color: white;
+}
+
+.fa-star{
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+/*** main ***/
 
 .about{
     background-color: #1ABC9C;
@@ -28,6 +86,8 @@
     padding-right: 40px;
 }
 
+
+/*** footer ***/
 .first_f{
     background-color: #3A546D;
 }
@@ -37,3 +97,8 @@
     text-align: center;
     color: white;
 }
+
+
+
+
+
