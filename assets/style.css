@@ -18,6 +18,10 @@ body{
     width: 80%;
 }
 
+h1{
+    text-align: center;
+}
+
 
 /*** header ***/
 /* navbar */
@@ -40,7 +44,7 @@ body{
     background-color: #1ABC9C;
 }
 
-.herostuff{
+.stuff{
     text-align: center;
     color: white;
 }
@@ -60,10 +64,13 @@ body{
     margin-bottom: 15px;
 }
 
-.line{
+.line_w, .line_b{
     height: 3px;
     width: 100px;
     display: inline-block;
+}
+
+.line_w{
     background-color: white;
 }
 
@@ -74,8 +81,14 @@ body{
 
 /*** main ***/
 
+/* portfolio */
+.line_b{
+    background-color: #2C3E50;
+}
+
 .about{
     background-color: #1ABC9C;
+    color: white;
 }
 
 .text, form{
