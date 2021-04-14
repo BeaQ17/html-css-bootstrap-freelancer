@@ -91,14 +91,6 @@ h1{
     color: white;
 }
 
-.text, form{
-    padding-left: 40px;
-}
-
-.text2, form{
-    padding-right: 40px;
-}
-
 
 /*** footer ***/
 .first_f{
@@ -115,3 +107,29 @@ h1{
 
 
 
+/*** media query ***/
+@media screen and (max-width: 767px){
+    .text2{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .text, form{
+        padding-left: 40px;
+    }
+    
+    .text2, form{
+        padding-right: 40px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .text, form{
+        padding-left: 40px;
+    }
+    
+    .text2, form{
+        padding-right: 40px;
+    }
+}
