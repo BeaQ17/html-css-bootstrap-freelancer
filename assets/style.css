@@ -16,6 +16,7 @@ body{
 
 .container-fluid{
     width: 80%;
+    margin: auto;
 }
 
 h1{
@@ -124,18 +125,11 @@ h1{
 
 /* contact me */
 .form-control {
-    display: block;
-    width: 100%;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border-bottom: 1px solid #ced4da;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+
 }
 
 .send{
@@ -148,10 +142,40 @@ h1{
 
 
 /*** footer ***/
+/* main footer */
 .first_f{
     background-color: #3A546D;
+    color: white;
+    text-align: center;
 }
 
+.first_f p{
+    margin-bottom: 0px;
+}
+
+.social{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-google-plus-g{
+    font-size: 13px;
+}
+
+#startb{
+    text-decoration: none;
+    color: #1ABC9C;
+}
+
+/* copyright footer */
 .second_f{
     background-color: #2C3E50;
     text-align: center;
@@ -163,13 +187,28 @@ h1{
 
 
 /*** media query ***/
-@media screen and (max-width: 767px){
-    .text2{
-        margin-top: 15px;
+@media screen and (max-width: 767px){  /* small */
+    .navbar-nav{
+        display: none;
+    }
+
+    .burger{
+        color: white;
+        border-radius: 5px;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        padding: 10px;
+    }
+
+    .xs-margin{
+        margin-top: 30px;
     }
 }
 
-@media screen and (min-width:768px) and (max-width:991px){
+@media screen and (min-width:768px) and (max-width:991px){  /* medium */
     .text, form{
         padding-left: 40px;
     }
@@ -177,14 +216,36 @@ h1{
     .text2, form{
         padding-right: 40px;
     }
+
+    .burger{
+        display: none;
+    }
+
+    /*    ->bootstrap framework has it in column with no padding and it doesn't let me override it
+    .navbar-nav{
+        padding-right: 30px;
+        padding-left: 30px;
+        flex-direction: row;
+    }
+    
+    .nav-link{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    */
+
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width:992px){ /* large */
     .text, form{
         padding-left: 40px;
     }
     
     .text2, form{
         padding-right: 40px;
+    }
+
+    .burger{
+        display: none;
     }
 }
